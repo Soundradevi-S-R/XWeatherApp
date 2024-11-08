@@ -1,0 +1,81 @@
+
+@import url("https://fonts.googleapis.com/css?family=Geneva");
+
+* {
+    font-family: "Geneva", Geneva, Tahoma, sans-serif;  
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: lightcyan;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+}
+
+.container{   
+    display: flex;
+    flex-direction: column;
+    height:50vh;
+    justify-content: center; 
+}
+.inputContainer{
+
+
+    display: flex;      
+    align-items: center;
+    justify-content: center;    
+    height: 800px;
+    border-width: 1px solid black;
+    gap:8px;  
+    padding-bottom: 50px; 
+    padding-top: 50px;
+
+
+}
+
+.cityInput{
+    width: 250px;
+    height:30px; 
+    border-radius: 5px;
+    height:40px;
+    font-size:large;
+    border-color: lightcyan;
+    overflow: hidden;
+
+}
+.searchButton{
+    width: 100px;
+    background-color: green;
+    border-radius: 5px;
+    height:40px;
+    color: white;
+    font-size: medium;
+    border-color: white;
+
+}
+.weather-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-width: 1px;
+      
+    border-color: black;
+    gap:20px;
+}
+.weather-card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width:250px;
+    background-color: white;
+    border-radius: 8px;
+    border-width: 1px;
+}
